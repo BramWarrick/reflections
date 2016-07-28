@@ -11,3 +11,8 @@ What are some situations when branches would be helpful in keeping your history 
 
 Testing new features - alpha, beta testing, researching bugs, 
 creating a copy of the code so I can play with the code without fear - learning language(s) as I do so.
+
+How do the diagrams help you visualize the branch structure?
+
+They outline the sequence of events logically and you can easily read where code separated from the main logic.
+This is much clearer than the details in git log.
