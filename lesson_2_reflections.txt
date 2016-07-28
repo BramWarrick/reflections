@@ -16,3 +16,9 @@ How do the diagrams help you visualize the branch structure?
 
 They outline the sequence of events logically and you can easily read where code separated from the main logic.
 This is much clearer than the details in git log.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+With the safeguards it has in place, automatic is far preferrable and much less likely to result in overlooked changes.
