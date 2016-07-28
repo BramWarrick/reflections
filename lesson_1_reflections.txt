@@ -1,0 +1,4 @@
+Using fc made finding any altered lines easy. 
+This significantly reduced the number of lines we needed to read for comparison. 
+It also helped in that we may not have even meant to change a line... 
+  but that could be where the bug was introduced.
