@@ -7,3 +7,15 @@ Describe the differences between forks, clones, and branches. When would you use
 A fork gives appropriate credit to the original developer(s) and is, ideally, fully functional.
 A clone is a complete copy of a repository, but it lacks obvious trackability back to the original creator, though that could be in a README or other documents.
 A branch is a complete copy of the repository - at a certain point in time. It can be merged into another branch in the same repository. In all likelihood it contains commits that original branch did not - that is its purpose.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+First it would be a handy reference for comparison if my branch is buggy. Also, it allows me to create a local merge and test everything if my branch if from a commit previous to the current remote.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+It would be much more tedious with code being sent back and forth through email, ftp, or shared directory where possible. Either way it would be much more difficult for multiple people to work on the same section of a project at the same time.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+If working colloratively on a new feature, this would be vital to smooth, parallel development.
