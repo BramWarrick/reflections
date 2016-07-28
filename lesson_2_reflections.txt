@@ -1,3 +1,8 @@
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 It's a subset of all the files and directories - allowing greater control and preventing needless file bloat.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+By typically updating only one file at a time, the scope of the change and the comments can be limited to one logical change. 
+It also forces the process to be delibereate.
